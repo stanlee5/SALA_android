@@ -106,8 +106,8 @@ public class MView extends View {
 		
 		timestamp = tval;
 		
-		vx += dT * (xval-xx);
-		vy += dT * (yval-yy);
+		vx += dT * (xval+xx)/2;
+		vy += dT * (yval+yy)/2;
 		xx = xval;
 		yy = yval;
 		
