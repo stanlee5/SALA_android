@@ -15,7 +15,8 @@ public class MainActivity extends Activity {
 	SensorEventListener sel = null;
 	
 	MView mView = null;
-	
+
+	// What's changed ??
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
